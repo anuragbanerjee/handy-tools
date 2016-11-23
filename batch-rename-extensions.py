@@ -1,3 +1,14 @@
+#!/usr/bin/env python
+
+'''
+Batch Rename Extensions
+Created by Anurag Banerjee.
+Copyright 2016. All rights reserved.
+
+USAGE `python batch-rename-extensions.py <DIRECTORY>`
+
+'''
+
 import os, sys
 
 folder, newExtension = sys.argv[1:];
