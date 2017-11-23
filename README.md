@@ -5,26 +5,12 @@ I found that I use these tools surprisingly often, so I decided to open-source t
 
 ## Programs
 
--   **[Batch Rename Filename](batch-rename-filenames.py)**
-
-    `python batch-rename-filenames.py [-tuleRnzxrqwapiI] <FILE/DIRECTORY> [<FILE/DIRECTORY>]`
-    ​
-
--   **[Batch Rename Extensions](batch-rename-extensions.py)**
-      `python batch-rename-extensions.py <DIRECTORY>`
-    ​
-
--   [**CSV to JSON Converter**](csv-to-json.py)
-      `python csv-to-json.py sample.csv > sample.json`
-      ​
-
--   [**JSON to CSV Converter**](json-to-csv.py)
-      `python json-to-csv.py sample.json > sample.csv`
-    ​
-
--   [**Quick Add (for Google Calendar)**](quick-add/quick-add.py)
-      `python quick-add.py -q "Dinner tomorrow at 6pm"`
-    - I also packaged it into an [Alfred extension](quick-add/Quick Add.alfredworkflow) to make it even more convenient to use.
+1. **[Batch Rename Extensions](batch-rename-extensions.py)**
+2. **[Batch Rename Filename](batch-rename-filenames.py)**
+3. **[CSV to JSON Converter](csv-to-json.py)**
+4. **[JSON to CSV Converter](json-to-csv.py)**
+5. **[Quick Add for Google Calendar](quick-add/quick-add.py)** (also as an Alfred extension in folder)
+6. **[Roman Numerals](roman-numerals.py)**
 
 ## LICENSE
 
